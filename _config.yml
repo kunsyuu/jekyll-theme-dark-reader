@@ -1,12 +1,12 @@
-title: Dark Reader
+title: KiRa-KiRa Sensation
 markdown: kramdown
 url: ""
-baseurl: "/"
+baseurl: ""
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: You Know Who
+  email: no@need
 
 plugins:
   - jekyll-paginate
@@ -15,9 +15,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-paginate_path: "/page:num/"
+paginate_path: "/page:num"
 
-paginate: 5
+paginate: 10
 
 collections_dir: all_collections
 collections:
@@ -35,6 +35,6 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
-      permalink: /posts/:categories/:year/:month/:day/:title/
+      permalink: /:year/:month/:day/:title
 
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]

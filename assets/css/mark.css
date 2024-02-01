@@ -1,5 +1,6 @@
 * {
-	font-family: monospace;
+	/*font-family: monospace;*/
+	font-family: 'LXGW WenKai Screen', 'SimSun', 'Noto Serif SC', 'ST Heiti', 'Microsoft YaHei';
 	--theme-color: #f78e66;
 }
 

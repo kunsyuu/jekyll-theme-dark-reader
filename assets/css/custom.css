@@ -1,7 +1,8 @@
 * {
 	outline: none;
-	--theme-color: #f78e66;
+	--theme-color: #F08080;
 }
+
 body {
 	color: rgb(167, 158, 139) !important;
 }
@@ -15,7 +16,7 @@ img {
 header {
 	margin: 2rem 20% -2rem 20%;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 }
 
 header * {
@@ -42,6 +43,22 @@ nav a {
 nav a:hover {
 	text-decoration: underline !important;
 }
+
+/*title and meta, copy from collection_layout.html and default.html*/
+.title {
+	padding: 5%;
+	color: #101417;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	background: #F08080;
+	display: grid;
+}
+.meta {
+	font-size: 0.7rem;
+	font-weight: normal;
+	text-transform: uppercase;
+  }
 
 /* main */
 
@@ -88,6 +105,17 @@ main {
 	font-weight: bold;
 }
 
+.post-list li {
+	list-style: none;
+}
+
+/* 文章内容段落开头空两格 */
+.content p:nth-child(n+2) {
+	text-indent: 2em;
+}
+
+
+
 /* footer */
 
 footer {
@@ -106,3 +134,41 @@ footer {
 		margin-right: 10%;
 	}
 }
+
+
+/*copy from head.html*/
+/*<!-- PILL JS LOADER SYLE -->*/
+  #indicator {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 3px;
+	display: none;
+	background-color: #72b6b5;
+  }
+
+  .is-loading {
+	display: block;
+	animation: blink 1.5s linear infinite;
+  }
+
+  @keyframes blink {
+	from,
+	to {
+	  background-color: #72b6b5;
+	}
+
+	50% {
+	  background-color: #42b983;
+	}
+  }
+
+  #project-link {
+	display: block;
+	position: fixed;
+	padding: 8px;
+	top: 0;
+	right: 0;
+  }
+/*<!-- PILL JS -->*/

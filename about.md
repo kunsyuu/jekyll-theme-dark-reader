@@ -1,14 +1,17 @@
 ---
-title: Sharad Raj
+title: 关于
 layout: about
-profile_pic: "https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4"
+profile_pic: "https://ucarecdn.com/74ec18b0-8e7f-40b7-9be3-0e4477efea22/kotori.jpg"
 profile_pic_alt: ""
-short_bio: Hi there this is Sharad, the developer of this theme.
+short_bio: 欢迎你的到来
 ---
 
-This is long bio.
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+这是一个记录个人爱好的网站，欢迎你的到来。
 
-[My Instagram](http://instagram.com/codingindian) 
-[My Linkedin](http://linkedin.com/in/srsmaurya)
-[My Github](http://github.com/sharadcodes)
+这个博客只是写一些生活琐事，并没有什么技术知识干货可供参考，也没有任何价值观输出。
+
+我平时喜欢玩玩游戏，复古老游戏为主，喜欢ACG文化，看看动漫，看看书，养花种菜，等等。算是重度的动漫、游戏爱好者。
+
+随处可见的社会底层普通男，跳出三界外，不在五行中。心态积极乐观，人生苦短，吃喝玩乐即可。
+
+这个网站的访问速度可能比较慢，急性子慎入啊，网站需要优化的地方还有很多，但访问速度应该还在正常的忍受范围内吧。不妨让生活慢下来，无必要那么快的节奏。
