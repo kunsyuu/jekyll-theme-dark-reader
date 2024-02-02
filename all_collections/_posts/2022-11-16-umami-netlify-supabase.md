@@ -12,19 +12,23 @@ umami是一个非常小巧的网站访问统计系统，对于没几个访客的
 ## 一.使用Supabase创建数据库
 Supabase网站地址： https://supabase.com/
 可以使用GitHub账号登录，免费用户一个账号可以创建两个数据库（即两个project），登录后点击New project按钮创建数据库。
+
 ![](https://ucarecdn.com/f4ebc8d2-2bdd-4b24-8573-fd6f73fb01d9/2001.webp)
 
 输入数据库名称和密码，如果是点击生成密码按钮得到的密码，要复制一下记录下来等下要用。地区选择离自己较近的地区，最后点击Create new project按钮。等待约一两分钟后数据库创建完成。
+
 ![](https://ucarecdn.com/caca6c41-0cfc-49e0-9ee9-26737fcacd9a/2002.webp)
 
 点击左下角齿轮（Project Settings）按钮，点击DataBase，复制Connection string中的URI字符串，将其中的[YOUR-PASSWORD]替换为创建时设置的密码，得到一串类似于如下的连接字符串。
 postgresql://postgres:password @ db.rcpdseetwdeuq.supabase.co:5432/postgres
+
 ![](https://ucarecdn.com/15a5acd1-3579-4133-86fd-529ee98cabda/2003.webp)
 
 至此得到了umami所需要的数据库空间。
 
 ## 二.在Netlify部署
 参考umami官网的步骤，这里的步骤非常简略，有些细节并没有写全。我并不能通过这里的Deploy按钮来部署成功，点击后无法自动fork umami到自己的GitHub账号，若自己已经手动fork再点击又会提示项目已存在。所以就按步骤手动操作吧。
+
 ![](https://ucarecdn.com/82fc6b84-8545-4a5f-b2ca-0f257261b076/2004.webp)
 
 ### 1.克隆umami项目
