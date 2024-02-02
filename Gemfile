@@ -13,5 +13,3 @@ gem "jekyll-seo-tag", "~> 2.6"
 gem "jekyll-sitemap", "~> 1.4"
 
 gem "jekyll-feed", "~> 0.13.0"
-
-gem "github-pages", "~> 208", group: :jekyll_plugins
